@@ -4,7 +4,6 @@
 @include ('store.partials.slider')
 
 <div class="container">
-
   <div id="products">
       @foreach ($products as $product)
         <div class="product white-panel">

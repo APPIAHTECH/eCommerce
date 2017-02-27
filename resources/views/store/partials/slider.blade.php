@@ -7,14 +7,14 @@
   </ol>
 
   <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
+  <div class="carousel-inner marge" role="listbox">
     <div class="item active">
-      <img src="http://media1.santabanta.com/full1/Vehicles/Bicycles/bicycles-41a.jpg" alt="slide1">
+      <img src="https://es.best-wallpaper.net/wallpaper/1680x1050/1610/MTB-bike_1680x1050.jpg" alt="slide1" class="imgSlider">
       <div class="carousel-caption"></div>
     </div>
-      
+
     <div class="item">
-      <img src="http://www.newhdwallpapers.in/wp-content/uploads/2014/06/Abstract-Bicycle-Wheel-HD-Desktop-Wallpaper.jpg" alt="img2">
+      <img src="https://www.tubici.com.co/wp-content/uploads/2016/06/wallpapers-tubici-15.jpg" alt="img2" class="imgSlider">
       <div class="carousel-caption">
         ...
       </div>

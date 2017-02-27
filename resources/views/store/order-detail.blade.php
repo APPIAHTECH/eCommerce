@@ -1,13 +1,12 @@
-
 @extends ('store.template')
 @section ('content')
 
 <div class="container text-center">
-    
+
     <div class="page-header">
         <h1><i class="fa fa-shopping-cart"></i>Detail de la comanda</h1>
     </div>
-    
+
     <div class="page">
         <div class="table-responsive">
             <h1>Dades d'usuari</h1>
@@ -18,7 +17,7 @@
                 <tr><td>Adreça:</td><td>{{ Auth::user()->adress }}</td></tr>
             </table>
         </div>
-        
+
         <div class="table-responsive">
             <h3>Dades de la comanda</h3>
             <table class="table table-striped table-hover table-bordered">
