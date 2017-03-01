@@ -1,12 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 body
 {
     background:#f0f0f0;
-    font-family: 'Poiret One', cursive;
+    font-family: 'Roboto', sans-serif;
 }
 
 h1
 {
-    color:orange;
+    color:#FF6E40!important;
 }
 
 h2,h3,h4,h5,h6
@@ -17,8 +20,10 @@ h2,h3,h4,h5,h6
 
 footer
 {
-    background:#222;
+    background:#BDBDBD;
     padding:20px;
+    text-align: center;
+    border-top-color: #424242;
 }
 
 .page
@@ -41,3 +46,12 @@ footer
 {
     font-size: 25px;
 }
+
+.btn
+{
+    background: #ff6000!important;
+}
+
+.fixat{position: fixed; z-index: 9000; width: 100%; height: auto;}
+
+.container{display: flex; justify-content: center; flex-flow: column wrap;}

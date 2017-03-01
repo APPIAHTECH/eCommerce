@@ -6,14 +6,14 @@
              <h1><i class="fa fa-rocket"></i>BACKEND</h1>
         </div>
 
-        <h2>Bevingut  {{ Auth::user()->user }} al Panell d'administració de la botiga.</h2><hr>
+        <h4>Bevingut  {{ Auth::user()->user }} al Panell d'administració de la botiga.</h4><hr class="style18"/>
 
         <div class="row">
 
             <div class="col-md-6">
                 <div class="panel">
                     <i class="fa fa-list-alt icon-home"></i>
-                    <a href="{{ route('category.index') }}" class="btn btn-warning btn-block btn-home-admin">CATEGORIES</a>
+                    <a href="{{ route('category.index') }}" class="btn btn-warning btn-block btn-home-admin btn">CATEGORIES</a>
                 </div>
             </div>
 

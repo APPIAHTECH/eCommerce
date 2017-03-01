@@ -7,7 +7,7 @@
   <div id="products">
       @foreach ($products as $product)
         <div class="product white-panel">
-            <h3>{{$product->name}}</h3>
+            <h4>{{$product->name}}</h4>
             <img src="{{$product->image}}" ALT =””>
 
             <div class="product-info">
@@ -26,6 +26,9 @@
         </div>
       @endforeach
   </div>
-
+    
+    <section class="contingut">
+      <div class="pujar"><i class="material-icons">keyboard_arrow_up</i></div>
+    </section>
 </div>
 @stop

@@ -23,6 +23,6 @@
     @yield ('content')
     @include ('admin.partials.footer')
 
-        <script src="{{asset("admin/js/main.js") }}"></script>
+        <script src="{{asset('admin/js/main.js') }}"></script>
   </body>
 </html>
